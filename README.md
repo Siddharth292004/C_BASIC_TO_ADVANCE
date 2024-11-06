@@ -1,4 +1,5 @@
-C PROGRAMMING  PRACTICE  REPOSITORY
+C PROGRAMMING  PRACTICE  REPOSITORY New
+
 
 Welcome to my C Programming repository! This repository contains various C programs that I have written while learning and practicing the C programming language. Each program addresses specific concepts, data structures, and algorithms, with a focus on strengthening foundational programming skills.
 
