@@ -11,4 +11,5 @@ Data Structures - Implementations of stacks, queues, and double-ended queues (de
 Memory Management - Programs demonstrating dynamic memory allocation.
 Algorithms - Programs related to sorting, searching, and other core algorithms.
 Additional Projects - Any other standalone C projects or experiments I work on.
+Thank you 
 
