@@ -1,4 +1,4 @@
-//  The ternary operator in c is ashort form of an if-else statement.
+//  The ternary operator in c is a short form of an if-else statement.
 // condition ? expression_if_true : expression_if_false;
 // Write a program to find maximum number between any two number(use ternary operator).
 
