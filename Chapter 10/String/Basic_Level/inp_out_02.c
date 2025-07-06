@@ -1,6 +1,7 @@
 // Take a string as input and print it.
 
 #include<stdio.h>
+#include<string.h>
 
 int main(){
 
