@@ -15,4 +15,5 @@ int main(){
     
     printf("new string: %s",str1);
     return 0;
+    
 }

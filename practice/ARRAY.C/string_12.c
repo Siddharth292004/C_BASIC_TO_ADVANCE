@@ -4,7 +4,7 @@
 int main(){
     char str1[40],str2[40];
 
-    printf("Entert the password: ");
+    printf("Enter the password: ");
     scanf("%s",str1);
     printf("rewrite the password: ");
     scanf("%s",str2);
