@@ -11,7 +11,7 @@ int main(){
     printf("\nfinal cost with GST\n");
     for(int j =0;j<3;j++){
         float total_price = price[j]+(0.18 * price[j]); 
-        printf("total price %d: %2f\n",j+1,total_price);
+        printf("total price %d: %.2f\n",j+1,total_price);
     }
     return 0;
 }

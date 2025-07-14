@@ -1,4 +1,4 @@
-
+//  Write a program to find out maximum number between any two numbers. 
 
 #include<stdio.h>
 
