@@ -7,8 +7,9 @@ int main(){
     ptr = &num;
 
     printf("vaule of num: %d\n",num);
-    printf("address of num: %u\n",&num);
-    printf("addess stored in pointer ptr: %u\n",ptr);
+    printf("address of num: %p\n",&num);
+    printf("addess stored in pointer ptr: %p\n",ptr);
+    
 
     return 0;
     

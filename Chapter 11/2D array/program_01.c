@@ -11,7 +11,7 @@ int main()
     {
         for (int j = 0; j < 2; j++)
         {
-            scanf("%d", &arr[i][j]); // corrected
+            scanf("%d", &arr[i][j]);
         }
     }
 
