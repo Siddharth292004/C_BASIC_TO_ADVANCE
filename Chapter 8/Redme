@@ -1,0 +1,64 @@
+✅ Basic Level Array Questions
+
+Print all elements of an array
+
+Find the sum of all array elements
+
+Count even and odd numbers in an array
+
+Find the maximum and minimum element in an array
+
+Reverse an array
+
+Search for an element in the array (linear search)
+
+Copy one array to another
+
+Count positive, negative, and zero elements
+
+Calculate average of array elements
+
+Print array in reverse order without modifying it
+
+⚙️ Intermediate Level Array Questions
+Insert an element at a specific position
+
+Delete an element from a specific position
+
+Sort an array in ascending or descending order
+
+Merge two arrays into a third array
+
+Remove duplicate elements from an array
+
+Find the second largest and second smallest elements
+
+Count frequency of each element in an array
+
+Left rotate and right rotate array by one position
+
+Print all unique elements of the array
+
+Print the elements which appear more than once
+
+🚀 Advanced Level Array Questions
+
+Perform binary search on a sorted array
+
+Find the Kth largest/smallest element in the array
+
+Find the pair of elements whose sum is equal to a given number
+
+Implement array rotation by k positions
+
+Find maximum subarray sum (Kadane’s Algorithm)
+
+Check if an array is sorted
+
+Check if two arrays are equal or not
+
+Find the majority element (appears more than n/2 times)
+
+Rearrange array elements such that positive and negative numbers alternate
+
+Segregate even and odd numbers in the array
