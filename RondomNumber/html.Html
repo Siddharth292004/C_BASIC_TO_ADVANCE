@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Random Number in C - Modern Style</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🎲 Random Number in C</h1>
+
+    <div class="section">
+      <h2>✅ What is a Random Number?</h2>
+      <p>A <strong>random number</strong> is a value that changes every time the program runs. Like dice, lottery numbers, or password digits.</p>
+    </div>
+
+    <div class="section">
+      <h2>✅ Required Header Files</h2>
+      <pre><code>#include &lt;stdlib.h&gt;
+#include &lt;time.h&gt;</code></pre>
+    </div>
+
+    <div class="section">
+      <h2>✅ Key Functions</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Function</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>rand()</code></td>
+            <td>Returns a pseudo-random integer</td>
+          </tr>
+          <tr>
+            <td><code>srand(seed)</code></td>
+            <td>Sets the seed for random number generation</td>
+          </tr>
+          <tr>
+            <td><code>time(NULL)</code></td>
+            <td>Returns current time (used as a seed)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="section">
+      <h2>✅ Basic Random Number Program</h2>
+      <pre><code>#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;time.h&gt;
+
+int main() {
+    srand(time(NULL));
+    int num = rand();
+    printf("Random number: %d\n", num);
+    return 0;
+}</code></pre>
+    <div class="note">ℹ️ Tip: Without <code>srand()</code>, you'll get the same number every time.</div>
+    </div>
+
+    <div class="section">
+      <h2>✅ Random Number in a Range</h2>
+      <p><strong>Formula:</strong></p>
+      <pre><code>int r = (rand() % (max - min + 1)) + min;</code></pre>
+      <p><strong>Example (1 to 10):</strong></p>
+      <pre><code>int r = (rand() % 10) + 1;</code></pre>
+    </div>
+
+    <div class="section">
+      <h2>✅ Dice Roll Simulation</h2>
+      <pre><code>#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;time.h&gt;
+
+int main() {
+    srand(time(NULL));
+    int dice = (rand() % 6) + 1;
+    printf("You rolled: %d\n", dice);
+    return 0;
+}</code></pre>
+    </div>
+
+    <div class="section">
+      <h2>✅ Easy Explanation</h2>
+      <ul>
+        <li><code>rand()</code> gives big numbers (0–32767)</li>
+        <li><code>%</code> reduces the range</li>
+        <li><code>+min</code> shifts the number to your range</li>
+        <li><code>srand(time(NULL))</code> changes the result every time</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>✅ Output Example</h2>
+      <pre><code>Random number: 26347
+You rolled: 5</code></pre>
+    </div>
+
+    <div class="section">
+      <h2>🧩 Practice Questions</h2>
+
+      <h3>🔹 Basic</h3>
+      <ul>
+        <li>Generate a random number.</li>
+        <li>Generate 5 random numbers.</li>
+        <li>Generate a random number between 1 and 100.</li>
+        <li>Print 10 random numbers from 50 to 60.</li>
+      </ul>
+
+      <h3>🔹 Intermediate</h3>
+      <ul>
+        <li>Roll two dice and display total.</li>
+        <li>Simulate a coin toss (Head/Tail).</li>
+        <li>Make a guessing game (1 to 50).</li>
+        <li>Random password generator (numbers only).</li>
+        <li>Generate marks of 5 students randomly (0–100).</li>
+      </ul>
+
+      <h3>🔹 Advanced</h3>
+      <ul>
+        <li>Lottery picker: 6 unique numbers from 1–49.</li>
+        <li>Generate a 4-digit OTP.</li>
+        <li>Random math quiz generator.</li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>
