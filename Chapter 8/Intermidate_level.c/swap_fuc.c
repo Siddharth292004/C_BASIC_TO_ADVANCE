@@ -14,5 +14,5 @@ int main(){
     swap_fuc(arr);
         printf("\narray after swap:\narr[0] = %d\narr[1] = %d",arr[0],arr[1]);
 
-    
+
 }

@@ -3,11 +3,11 @@
 
 #include<stdio.h>
 
-// fucntion declartion
+// function declaration
 void swap (int *x,int *y);
 
 int main(){
-    // variable declartion
+    // variable declaration
     int a,b;
      
     // taking input from the user
@@ -18,8 +18,8 @@ int main(){
     
     printf("\nBefore the swap:\na = %d\nb = %d\n",a,b);
 
-    // giving the address of a and b (call by referance);
-    // this mean the acullay value of variable change
+    // giving the address of a and b (call by reference);
+    // this mean the acutely value of variable change
     swap(&a,&b);
 
     printf("\nAfter the swap:\na = %d\nb = %d\n",a,b);

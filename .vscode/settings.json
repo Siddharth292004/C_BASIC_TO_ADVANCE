@@ -3,6 +3,9 @@
     "C_Cpp.default.compilerPath": "C:/MinGW/bin/g++.exe",
     "files.associations": {
         "*.html": "html",
-        "SumOfPostiveAndNEGATIVE.C": "cpp"
-    }
+        "stdio.h": "c"
+    },
+    "cSpell.words": [
+        "Siddharth"
+    ]
 }
