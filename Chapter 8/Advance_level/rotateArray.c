@@ -1,3 +1,23 @@
+/*
+Problem Statement:
+Write a program to rotate a given array a[] of size n to the right by k steps. The rotation must be done in-place using the reversal algorithm (i.e., without using any extra array).
+
+Note:
+
+k is a non-negative integer.
+
+k can be greater than n, so you must reduce it using k = k % n.
+
+Right rotation means shifting every element to the right by k positions. Elements that fall off the end are moved to the front.
+
+🧠 Input Format:
+First line: An integer n (size of the array)
+
+Second line: n integers separated by space (elements of the array)
+
+Third line: An integer k (number of rotations)
+*/
+
 #include<stdio.h>
 
 void reverse(int arr[], int st, int ed){
