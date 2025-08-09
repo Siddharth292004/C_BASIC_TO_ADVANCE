@@ -2,7 +2,7 @@
 
 #include<stdio.h>
 
-int factorial();
+int factorial(int num);
 int main(){
     int num;
     int fact_value;

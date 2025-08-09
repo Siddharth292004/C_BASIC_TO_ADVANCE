@@ -3,7 +3,7 @@
 
 #include<stdio.h>
 
-int is_prime();
+int is_prime(int num);
 int main(){
     int num;
     printf("Enter the number: ");

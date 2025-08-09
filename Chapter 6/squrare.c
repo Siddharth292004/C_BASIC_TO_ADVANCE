@@ -9,7 +9,7 @@ int main(){
     scanf("%d",&num);
 
     square = square_fun(num);
-    printf("Squrare of %d is: %d",num,square);
+    printf("Square of %d is: %d",num,square);
     return 0;
 }
 int square_fun(int x){

@@ -3,7 +3,7 @@
 void check_armstrong(int num);
 int main(){
     int n;
-    printf("Enter the numebr: ");
+    printf("Enter the number: ");
     scanf("%d",&n);
     check_armstrong(n);
     return 0;
