@@ -9,7 +9,7 @@ int main(){
     int max;
     
     printf("Enter the first number: ");
-    scnaf("%d",&a);
+    scanf("%d",&a);
     printf("Enter the second number: ");
     scanf("%d",&b);
 
