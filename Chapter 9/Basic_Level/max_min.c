@@ -17,7 +17,13 @@ int main(){
     int min = arr[0];
 
     for(int j =1;j<n;j++){
-        if()
-    
+        if(arr[j] > max){
+            max = arr[j];
+        }
+        if(arr[j] < min){
+            min = arr[j];
+        }
     }
+    printf("\nMaximum element is %d", max);
+    printf("\nMinimum element is %d", min);
 }
