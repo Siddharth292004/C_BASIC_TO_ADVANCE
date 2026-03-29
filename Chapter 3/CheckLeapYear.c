@@ -8,7 +8,7 @@ int main(){
     printf("Enter the year: ");
     scanf("%d",&year);
 
-    if ((year % 4 == 0 && 100!= 0) || (year % 400 == 0)){
+    if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)){
     printf("%d is leap year\n",year);
     }
     else{
